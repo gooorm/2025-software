@@ -16,27 +16,18 @@ public class MazeGenerator : MonoBehaviour
     
     private Cell[,] maze;
     private System.Random random;
-    
+
     // 셀의 벽 상태를 나타내는 구조체
     [System.Serializable]
-    public struct Cell
+    public class Cell
     {
-        public bool northWall;
-        public bool southWall;
-        public bool eastWall;
-        public bool westWall;
-        public bool visited;
-        
-        public Cell(bool north, bool south, bool east, bool west)
-        {
-            northWall = north;
-            southWall = south;
-            eastWall = east;
-            westWall = west;
-            visited = false;
-        }
+        public bool northWall = true;
+        public bool southWall = true;
+        public bool eastWall = true;
+        public bool westWall = true;
+        public bool visited = false;
     }
-    
+
     void Start()
     {
         random = new System.Random();
@@ -70,7 +61,7 @@ public class MazeGenerator : MonoBehaviour
         {
             for (int y = 0; y < height; y++)
             {
-                maze[x, y] = new Cell(true, true, true, true);
+                maze[x, y] = new Cell();
             }
         }
     }
@@ -276,7 +267,7 @@ public class MazeGenerator : MonoBehaviour
         {
             return maze[x, y];
         }
-        return new Cell(true, true, true, true); // 기본값 반환
+        return new Cell(); // 기본값 반환
     }
     
     /// <summary>

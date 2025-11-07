@@ -114,7 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2245063692649731135}
-  - component: {fileID: 6100303139375048998}
+  - component: {fileID: 3589213907224328585}
   m_Layer: 0
   m_Name: Prefab
   m_TagString: Untagged
@@ -140,7 +140,7 @@ Transform:
   - {fileID: 9155981805278377572}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6100303139375048998
+--- !u!114 &3589213907224328585
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,7 +156,7 @@ MonoBehaviour:
   height: 20
   cellSize: 1
   wallPrefab: {fileID: 1717962476419782456}
-  floorPrefab: {fileID: 6110807304113730288}
+  floorPrefab: {fileID: 7523410474125940240}
   mazeParent: {fileID: 8450553094227891280}
 --- !u!1 &7523410474125940240
 GameObject:
