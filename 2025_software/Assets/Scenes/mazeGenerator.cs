@@ -247,7 +247,7 @@ public class MazeGenerator : MonoBehaviour
     private void CreateWall(Vector3 position, Quaternion rotation)
     {
         GameObject wall = Instantiate(wallPrefab, position, rotation, mazeParent);
-        wall.transform.localScale = new Vector3(cellSize * 0.1f, 1, cellSize * 0.1f);
+        wall.transform.localScale = new Vector3(cellSize * 1, 2, cellSize *  0.1f);
     }
     
     /// <summary>
