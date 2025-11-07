@@ -6,7 +6,7 @@ public class MazeGenerator : MonoBehaviour
 {
     [Header("Maze Settings")]
     [SerializeField] private int width = 30;
-    [SerializeField] private int height = 30;
+    [SerializeField] private int height = 20;
     [SerializeField] private int cellSize = 1;
     
     [Header("Visualization")]
