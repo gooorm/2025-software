@@ -5,8 +5,8 @@ using UnityEngine;
 public class MazeGenerator : MonoBehaviour
 {
     [Header("Maze Settings")]
-    [SerializeField] private int width = 20;
-    [SerializeField] private int height = 20;
+    [SerializeField] private int width = 30;
+    [SerializeField] private int height = 30;
     [SerializeField] private int cellSize = 1;
     
     [Header("Visualization")]
@@ -43,7 +43,9 @@ public class MazeGenerator : MonoBehaviour
     {
         InitializeMaze();
         RecursiveBacktracking(0, 0);
-        
+        maze[0, 0].westWall = false;
+        maze[width - 1, height - 1].eastWall = false;
+
         if (mazeParent != null && wallPrefab != null && floorPrefab != null)
         {
             VisualizeMaze();
