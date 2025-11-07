@@ -43,7 +43,7 @@ public class MazeGenerator : MonoBehaviour
     {
         InitializeMaze();
         RecursiveBacktracking(0, 0);
-        maze[0, 0].westWall = false;
+    // maze[0, 0].westWall = false;
         maze[width - 1, height - 1].eastWall = false;
 
         if (mazeParent != null && wallPrefab != null && floorPrefab != null)
@@ -249,7 +249,7 @@ public class MazeGenerator : MonoBehaviour
     private void CreateWall(Vector3 position, Quaternion rotation)
     {
         GameObject wall = Instantiate(wallPrefab, position, rotation, mazeParent);
-        wall.transform.localScale = new Vector3(cellSize * 1, 2, cellSize *  0.1f);
+        wall.transform.localScale = new Vector3(cellSize * 1, 3, cellSize *  0.1f);
     }
     
     /// <summary>
