@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Chase.cs" />
     <Compile Include="Assets\Script\Hp_system.cs" />
+    <Compile Include="Assets\Script\Move_simple.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
