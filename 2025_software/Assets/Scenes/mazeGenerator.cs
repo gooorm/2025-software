@@ -40,7 +40,9 @@ public class MazeGenerator : MonoBehaviour
     void Start()
     {
         random = new System.Random();
+        Debug.Log("start maze generation");
         GenerateMaze();
+        Debug.Log("maze generation complete");
     }
     
     /// <summary>
@@ -196,46 +198,46 @@ public class MazeGenerator : MonoBehaviour
                 Destroy(child.gameObject);
             }
         }
-        
+
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
             {
                 Vector3 cellPosition = new Vector3(x * cellSize, 0, y * cellSize);
-                
+
                 // 바닥 생성
                 if (floorPrefab != null)
                 {
                     GameObject floor = Instantiate(floorPrefab, cellPosition, Quaternion.identity, mazeParent);
                     floor.transform.localScale = Vector3.one * cellSize;
                 }
-                
+
                 // 벽 생성
                 if (wallPrefab != null)
                 {
                     Vector3 wallOffset = Vector3.zero;
-                    
+
                     // 북쪽 벽
                     if (maze[x, y].northWall)
                     {
                         wallOffset = new Vector3(0, 0, cellSize * 0.5f);
                         CreateWall(cellPosition + wallOffset, Quaternion.identity);
                     }
-                    
+
                     // 남쪽 벽
                     if (maze[x, y].southWall)
                     {
                         wallOffset = new Vector3(0, 0, -cellSize * 0.5f);
                         CreateWall(cellPosition + wallOffset, Quaternion.identity);
                     }
-                    
+
                     // 동쪽 벽
                     if (maze[x, y].eastWall)
                     {
                         wallOffset = new Vector3(cellSize * 0.5f, 0, 0);
                         CreateWall(cellPosition + wallOffset, Quaternion.Euler(0, 90, 0));
                     }
-                    
+
                     // 서쪽 벽
                     if (maze[x, y].westWall)
                     {
@@ -245,6 +247,7 @@ public class MazeGenerator : MonoBehaviour
                 }
             }
         }
+        Debug.Log(maze);
     }
     
     /// <summary>
@@ -290,6 +293,7 @@ public class MazeGenerator : MonoBehaviour
     /// </summary>
     public void SetSeed(int seed)
     {
+
         random = new System.Random(seed);
     }
 }
