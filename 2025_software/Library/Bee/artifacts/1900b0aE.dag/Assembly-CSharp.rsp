@@ -387,6 +387,7 @@
 "Assets/GhostCharacter_Free/Scripts/GhostScript.cs"
 "Assets/Scripts/GhostChase.cs"
 "Assets/Scripts/PlayerMove.cs"
+"Assets/Scripts/StartButton.cs"
 "Assets/Scripts/TimeDirector.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs"
