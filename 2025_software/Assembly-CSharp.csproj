@@ -60,8 +60,16 @@
     <Analyzer Include="E:\project\tool\unity\Hub\Editor\2022.3.62f3\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\PlayerController.cs" />
+    <Compile Include="Assets\Script\Chase_Move_Time_Scripts\TimeDirector.cs" />
+    <Compile Include="Assets\Script\mazeGenerator.cs" />
     <Compile Include="Assets\Script\MoveTo.cs" />
     <Compile Include="Assets\Script\Chase.cs" />
+    <Compile Include="Assets\Script\TestEnemy.cs" />
+    <Compile Include="Assets\Script\Chase_Move_Time_Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Script\LaserScript.cs" />
+    <Compile Include="Assets\Script\LaserHit.cs" />
+    <Compile Include="Assets\Script\Chase_Move_Time_Scripts\GhostChase.cs" />
     <Compile Include="Assets\Script\Hp_system.cs" />
     <Compile Include="Assets\Script\Move_simple.cs" />
   </ItemGroup>
@@ -930,12 +938,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
@@ -990,12 +998,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">

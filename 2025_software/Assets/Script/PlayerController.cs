@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        
         Move();
         Look();
     }
@@ -46,7 +47,7 @@ public class PlayerController : MonoBehaviour
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSpeed;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSpeed;
-
+        
         xRot -= mouseY; // 상하회전값
         xRot = Mathf.Clamp(xRot, -90f, 90f); //상하 회전의 각도를 90도로 제한
 
