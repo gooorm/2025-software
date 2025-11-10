@@ -18,6 +18,6 @@ public class StartButton : MonoBehaviour
 
     public void OnStartButtonClick()
     {
-        SceneManager.LoadScene("GameScene"); // 실제 게임 씬 이름
+        SceneManager.LoadScene("GameScene");
     }
 }

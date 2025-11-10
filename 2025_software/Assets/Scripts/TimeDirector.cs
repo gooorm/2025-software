@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class NewBehaviourScript : MonoBehaviour
+using UnityEngine.SceneManagement;
+
+using UnityEditor.SearchService;
+public class TimeDirector : MonoBehaviour
 {
     GameObject timerText;
     GameObject timer2min;
@@ -44,7 +47,7 @@ public class NewBehaviourScript : MonoBehaviour
 
                 this.timerText.SetActive(false);
                 this.gameOver1.SetActive(true);
-                this.gameOver1.GetComponent<TextMeshProUGUI>().text = "GAME OVER1";
+                this.gameOver1.GetComponent<TextMeshProUGUI>().text = "TIME OVER1";
             }
 
             int min1 = Mathf.FloorToInt(this.time1 / 60);
@@ -66,7 +69,9 @@ public class NewBehaviourScript : MonoBehaviour
 
                 this.timer2min.SetActive(false);
                 this.gameOver2.SetActive(true);
-                this.gameOver2.GetComponent<TextMeshProUGUI>().text = "GAME OVER2";
+                this.gameOver2.GetComponent<TextMeshProUGUI>().text = "TIME OVER2";
+
+                SceneManager.LoadScene("TimeOverScene");
             }
 
             int min2 = Mathf.FloorToInt(this.time2 / 60);
