@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|c:\\users\\haesu\\documents\\github\\2025-software\\2025_software\\assets\\scripts\\timedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|c:\\users\\haesu\\documents\\github\\2025-software\\2025_software\\assets\\scripts\\restartbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restartbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|c:\\users\\haesu\\documents\\github\\2025-software\\2025_software\\assets\\scripts\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|c:\\users\\haesu\\documents\\github\\2025-software\\2025_software\\assets\\scripts\\ghostchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\assets\\scripts\\ghostchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ghostchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,19 +43,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TimeDirector.cs",
+              "DocumentMoniker": "C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\Assets\\Scripts\\TimeDirector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimeDirector.cs",
+              "ToolTip": "C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\Assets\\Scripts\\TimeDirector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimeDirector.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwDEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T03:59:45.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RestartButton.cs",
+              "DocumentMoniker": "C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\Assets\\Scripts\\RestartButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RestartButton.cs",
+              "ToolTip": "C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\Assets\\Scripts\\RestartButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RestartButton.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T03:49:02.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StartButton.cs",
               "DocumentMoniker": "C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\Assets\\Scripts\\StartButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartButton.cs",
               "ToolTip": "C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\Assets\\Scripts\\StartButton.cs",
               "RelativeToolTip": "Assets\\Scripts\\StartButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T14:57:01.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\Assets\\Scripts\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMove.cs",
@@ -59,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GhostChase.cs",
               "DocumentMoniker": "C:\\Users\\haesu\\Documents\\GitHub\\2025-software\\2025_software\\Assets\\Scripts\\GhostChase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GhostChase.cs",
@@ -67,8 +101,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GhostChase.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T11:14:46.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T11:14:46.704Z"
             }
           ]
         }
