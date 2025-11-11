@@ -13,6 +13,8 @@ public class MazeGenerator : MonoBehaviour
     [SerializeField] private GameObject wallPrefab;
     [SerializeField] private GameObject floorPrefab;
     [SerializeField] private Transform mazeParent;
+    [Header("Endpoints")]
+    [SerializeField] private GameObject endPointPrefab;
     
     private Cell[,] maze;
     private System.Random random;
@@ -49,6 +51,14 @@ public class MazeGenerator : MonoBehaviour
         if (mazeParent != null && wallPrefab != null && floorPrefab != null)
         {
             VisualizeMaze();
+        }
+
+        // 출구(end point) 생성: 마지막 셀의 동쪽 벽 위치
+        if (endPointPrefab != null && mazeParent != null)
+        {
+            Vector3 endCellPosition = new Vector3((width - 1) * cellSize, 0, (height - 1) * cellSize);
+            Vector3 endPointPosition = endCellPosition + new Vector3(cellSize * 0.5f, 0, 0);
+            Instantiate(endPointPrefab, endPointPosition, Quaternion.identity, mazeParent);
         }
     }
     
