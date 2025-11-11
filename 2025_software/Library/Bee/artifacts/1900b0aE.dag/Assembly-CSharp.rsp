@@ -361,6 +361,7 @@
 "Assets/Script/Chase_Move_Time_Scripts/GhostChase.cs"
 "Assets/Script/Chase_Move_Time_Scripts/PlayerMove.cs"
 "Assets/Script/Chase_Move_Time_Scripts/TimeDirector.cs"
+"Assets/Script/GameStartButton.cs"
 "Assets/Script/Hp_system.cs"
 "Assets/Script/LaserHit.cs"
 "Assets/Script/LaserScript.cs"
@@ -368,7 +369,9 @@
 "Assets/Script/MoveTo.cs"
 "Assets/Script/Move_simple.cs"
 "Assets/Script/PlayerController.cs"
+"Assets/Script/RestartButton.cs"
 "Assets/Script/TestEnemy.cs"
+"Assets/Script/TimeDirector.cs"
 -langversion:9.0
 /deterministic
 /optimize+
