@@ -18,7 +18,8 @@ public class GameStartButton : MonoBehaviour
             SceneManager.LoadScene("main_play");
 
     }
-    public void OnGamestartButtonClick()
+
+    public void OnButtonClick()
     {
         SceneManager.LoadScene("main_play");
     }

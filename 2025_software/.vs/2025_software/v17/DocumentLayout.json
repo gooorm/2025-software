@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\Unity\\Project\\2025-software\\2025_software\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|e:\\unity\\project\\2025-software\\2025_software\\assets\\script\\timedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\timedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|E:\\Unity\\Project\\2025-software\\2025_software\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|E:\\Unity\\Project\\2025-software\\2025_software\\assets\\script\\restartbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\restartbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|E:\\Unity\\Project\\2025-software\\2025_software\\assets\\script\\timedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\timedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|e:\\unity\\project\\2025-software\\2025_software\\assets\\script\\gamestartbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamestartbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|E:\\Unity\\Project\\2025-software\\2025_software\\assets\\script\\testenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\testenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|E:\\Unity\\Project\\2025-software\\2025_software\\assets\\script\\restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|E:\\Unity\\Project\\2025-software\\2025_software\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|E:\\Unity\\Project\\2025-software\\2025_software\\assets\\script\\testenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\testenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30A7531E-8A3C-09A5-978B-A406ADD15D09}|Assembly-CSharp.csproj|E:\\Unity\\Project\\2025-software\\2025_software\\assets\\script\\laserscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,21 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TimeDirector.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\TimeDirector.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\TimeDirector.cs",
-              "ToolTip": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\TimeDirector.cs",
-              "RelativeToolTip": "Assets\\Script\\TimeDirector.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T06:34:33.664Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -65,27 +52,40 @@
               "RelativeDocumentMoniker": "Assets\\Script\\GameStartButton.cs",
               "ToolTip": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\GameStartButton.cs",
               "RelativeToolTip": "Assets\\Script\\GameStartButton.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T06:29:23.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RestartButton.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\RestartButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\RestartButton.cs",
-              "ToolTip": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\RestartButton.cs",
-              "RelativeToolTip": "Assets\\Script\\RestartButton.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T06:14:04.589Z",
+              "WhenOpened": "2025-11-12T06:37:18.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Restart.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\Restart.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Restart.cs",
+              "ToolTip": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\Restart.cs",
+              "RelativeToolTip": "Assets\\Script\\Restart.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:27:12.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimeDirector.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\TimeDirector.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TimeDirector.cs",
+              "ToolTip": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\TimeDirector.cs",
+              "RelativeToolTip": "Assets\\Script\\TimeDirector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T06:34:33.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TestEnemy.cs",
               "DocumentMoniker": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\TestEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\TestEnemy.cs",
@@ -93,18 +93,17 @@
               "RelativeToolTip": "Assets\\Script\\TestEnemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:43:16.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T13:43:16.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
               "ToolTip": "E:\\Unity\\Project\\2025-software\\2025_software\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwC8AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowEYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T13:43:11.657Z",
               "EditorCaption": ""

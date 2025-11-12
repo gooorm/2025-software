@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -53,5 +54,24 @@ public class PlayerController : MonoBehaviour
 
         camTr.localRotation = Quaternion.Euler(xRot, 0f, 0f); //카메라의 상하회전
         transform.Rotate(Vector3.up * mouseX); //플레이어 좌우 회전
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        Debug.Log("cc" + other.gameObject.name);
+        if (other.gameObject.CompareTag("Chaser"))
+        {
+            SceneManager.LoadScene("GameOverScene");
+        }
+  
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("collision" + other.name);
+        if (other.CompareTag("Chaser"))
+        {
+            SceneManager.LoadScene("GameOverScene");
+        }
     }
 }

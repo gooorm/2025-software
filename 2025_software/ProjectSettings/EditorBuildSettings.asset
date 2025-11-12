@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/GameOverScene.unity
     guid: 6e34c503819fd12488218c81e7cf6d6d
   - enabled: 1
-    path: Assets/Scenes/TimeOverScene.unity
-    guid: 7e61030290e8192448e51da4a54006f6
+    path: Assets/Scenes/GameClearScene.unity
+    guid: 1775c05247ef3f14eb3bb6d46e73d9a1
   m_configObjects: {}

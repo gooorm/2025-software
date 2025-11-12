@@ -34,7 +34,7 @@ public class TimeDirector : MonoBehaviour
 
                 this.timerText.SetActive(false);
 
-                SceneManager.LoadScene("TimeOverScene");
+                SceneManager.LoadScene("GameOverScene");
             }
 
             int min = Mathf.FloorToInt(this.time / 60);

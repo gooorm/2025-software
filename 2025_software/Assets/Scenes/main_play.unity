@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 1352015890}
   m_Layer: 0
   m_Name: Chaser
-  m_TagString: Untagged
+  m_TagString: Chaser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -748,7 +748,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 1548186523}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1018,7 +1018,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1001 &1770991760
 PrefabInstance:
@@ -1128,6 +1128,7 @@ MonoBehaviour:
   wallPrefab: {fileID: 5510715404288879907, guid: f25447077b06bbf4a86c97dd4ef433b7, type: 3}
   floorPrefab: {fileID: 6110807304113730288, guid: 82eadccfefecf4d9483ea699585377ce, type: 3}
   mazeParent: {fileID: 1513182853}
+  endPointPrefab: {fileID: 0}
 --- !u!4 &1860650294
 Transform:
   m_ObjectHideFlags: 0
